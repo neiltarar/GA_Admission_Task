@@ -1,0 +1,58 @@
+body {
+    background-image: url("../images/index/passwd_page_background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+div.container {
+    text-align: center;
+    font-weight: bolder;
+    height: 10em;
+    margin: 12% auto;
+    padding: 50px 0;
+    
+}
+
+a.button {
+    padding-top: 8px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    text-align: center;
+    height: 25px;
+	width: 220px;
+	-webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+	background: linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.4));
+    background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.4));
+    background: -webkit-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.4));
+    text-decoration: none;
+    color: initial;
+    border-radius: 8px;
+}
+a.button_longtext {
+    padding-top: 5px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+	width: 220px;
+	-webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+	background: linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.4));
+    background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.4));
+    background: -webkit-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.4));
+    text-decoration: none;
+    color: initial;
+    border-radius: 8px;
+}
